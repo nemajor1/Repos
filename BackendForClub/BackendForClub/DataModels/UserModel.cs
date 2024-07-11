@@ -6,27 +6,23 @@ namespace BackendForClub.DataModels
     {
         [Key]
         public int Id { get; set; }
-
         [Required]
         [MaxLength(50)]
         public string Login { get; set; } = null!;
-
         [Required]
         [MaxLength(100)]
         public string Password { get; set; } = null!;
-
         [Required]
         [EmailAddress]
         public string Email { get; set; } = null!;
-
         [Required]
         public UserRole Role { get; set; }
-
         [Required]
         public UserStatus Status { get; set; }
-
         [Required]
         public string DateRegistration { get; set; } = null!;
+        [Required]
+        public int Balance { get; set; }
     }
     public enum UserRole
     {
@@ -34,7 +30,6 @@ namespace BackendForClub.DataModels
         Client,
         Director
     }
-
     public enum UserStatus
     {
         Black,

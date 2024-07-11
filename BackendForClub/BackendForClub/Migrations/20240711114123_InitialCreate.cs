@@ -53,7 +53,8 @@ namespace BackendForClub.Migrations
                     Email = table.Column<string>(type: "text", nullable: false),
                     Role = table.Column<int>(type: "integer", nullable: false),
                     Status = table.Column<int>(type: "integer", nullable: false),
-                    DateRegistration = table.Column<string>(type: "text", nullable: false)
+                    DateRegistration = table.Column<string>(type: "text", nullable: false),
+                    Balance = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {

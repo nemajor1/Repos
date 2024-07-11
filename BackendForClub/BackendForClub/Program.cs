@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using BackendForClub.Data;
+using BackendForClub.Controllers.Authorization;
+using BackendForClub.Controllers.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,8 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = "swagger";
     });
 }
-//app.MapUserEndpoints();
+
+app.Authorization();
+app.Registration();
 
 app.Run();

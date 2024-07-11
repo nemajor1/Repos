@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackendForClub.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240711094540_InitialCreate")]
+    [Migration("20240711114123_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -109,6 +109,9 @@ namespace BackendForClub.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Balance")
+                        .HasColumnType("integer");
 
                     b.Property<string>("DateRegistration")
                         .IsRequired()
