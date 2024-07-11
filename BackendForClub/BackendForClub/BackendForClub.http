@@ -1,0 +1,4 @@
+@BackendForClub_HostAddress = http://localhost:5288
+
+GET {{BackendForClub_HostAddress}}/swagger/
+Accept: application/json
