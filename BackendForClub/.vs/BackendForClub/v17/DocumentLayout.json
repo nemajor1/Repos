@@ -1,30 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projects\\Portfolio\\BackendForClub\\",
+  "WorkspaceRootPath": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\backendforclub.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\backendforclub.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\datamodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\datamodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\datamodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\datamodels\\barmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\datamodels\\barmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\datamodels\\barmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\datamodels\\computermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\datamodels\\computermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\datamodels\\computermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\datamodels\\sessionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\datamodels\\sessionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\datamodels\\sessionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\backendforclub\\backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,23 +55,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendForClub\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendForClub\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T09:50:14.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendForClub\\appsettings.json",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\appsettings.json",
+              "RelativeToolTip": "BackendForClub\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T09:50:10.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BackendForClub\\appsettings.Development.json",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\appsettings.Development.json",
+              "RelativeToolTip": "BackendForClub\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T09:50:08.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackendForClub.http",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.http",
+              "RelativeDocumentMoniker": "BackendForClub\\BackendForClub.http",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.http",
+              "RelativeToolTip": "BackendForClub\\BackendForClub.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-11T09:49:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\Data\\ApplicationContext.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Data\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "BackendForClub\\Data\\ApplicationContext.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Data\\ApplicationContext.cs",
               "RelativeToolTip": "BackendForClub\\Data\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T09:42:04.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\Program.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Program.cs",
               "RelativeDocumentMoniker": "BackendForClub\\Program.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\Program.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Program.cs",
               "RelativeToolTip": "BackendForClub\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,55 +132,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "SessionModel.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\SessionModel.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\SessionModel.cs",
               "RelativeDocumentMoniker": "BackendForClub\\DataModels\\SessionModel.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\SessionModel.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\SessionModel.cs",
               "RelativeToolTip": "BackendForClub\\DataModels\\SessionModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T09:26:11.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T09:26:11.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ComputerModel.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\ComputerModel.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\ComputerModel.cs",
               "RelativeDocumentMoniker": "BackendForClub\\DataModels\\ComputerModel.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\ComputerModel.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\ComputerModel.cs",
               "RelativeToolTip": "BackendForClub\\DataModels\\ComputerModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T09:17:31.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T09:17:31.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BarModel.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\BarModel.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\BarModel.cs",
               "RelativeDocumentMoniker": "BackendForClub\\DataModels\\BarModel.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\BarModel.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\BarModel.cs",
               "RelativeToolTip": "BackendForClub\\DataModels\\BarModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T09:16:10.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T09:16:10.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
               "RelativeDocumentMoniker": "BackendForClub\\DataModels\\UserModel.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
               "RelativeToolTip": "BackendForClub\\DataModels\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T09:09:47.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T09:09:47.562Z"
             }
           ]
         }

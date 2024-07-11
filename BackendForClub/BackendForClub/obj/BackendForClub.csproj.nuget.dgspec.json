@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\BackendForClub.csproj": {}
+    "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.csproj": {}
   },
   "projects": {
-    "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\BackendForClub.csproj": {
+    "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\BackendForClub.csproj",
+        "projectUniqueName": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.csproj",
         "projectName": "BackendForClub",
-        "projectPath": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\BackendForClub.csproj",
+        "projectPath": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\BackendForClub.csproj",
         "packagesPath": "C:\\Users\\Николай\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\Portfolio\\BackendForClub\\BackendForClub\\obj\\",
+        "outputPath": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Николай\\AppData\\Roaming\\NuGet\\NuGet.Config",
