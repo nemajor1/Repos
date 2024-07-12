@@ -26,13 +26,13 @@ namespace BackendForClub.DataModels
     }
     public enum UserRole
     {
-        Admin,
-        Client,
-        Director
+        Admin = 0,
+        Client = 1,
+        Director = 2
     }
     public enum UserStatus
     {
-        Black,
-        White
+        Black = 0,
+        White = 1
     }
 }

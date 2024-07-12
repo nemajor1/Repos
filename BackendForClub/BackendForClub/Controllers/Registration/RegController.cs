@@ -8,14 +8,14 @@ namespace BackendForClub.Controllers.Registration
     {
         public static void Registration(this WebApplication app)
         {
-            app.MapPost("/api/auth/Registration", RegistrUser);
+            app.MapPost("/api/reg/Registration", RegistrUser);
         }
         private static async Task<IResult> RegistrUser(RegModel regModel, ApplicationContext db)
         {
-            var existingUser = await db.UserModel.FirstOrDefaultAsync(u => u.Login == regModel.Login);
+            var existingUser = await db.UserModel.FirstOrDefaultAsync(u => u.Login == regModel.Login || u.Email == regModel.Email);
             if (existingUser != null)
             {
-                return Results.Conflict(new { message = "Пользователь с таким логином уже существует" });
+                return Results.Conflict(new { message = "Пользователь с таким логином или почтой уже существует" });
             }
             var user = new UserModel
             {

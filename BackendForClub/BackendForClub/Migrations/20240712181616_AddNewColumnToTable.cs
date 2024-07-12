@@ -7,11 +7,33 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackendForClub.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class AddNewColumnToTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "AuthModel",
+                columns: table => new
+                {
+                    Login = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                });
+
+            migrationBuilder.CreateTable(
+                name: "BalanceModel",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false),
+                    Quantity = table.Column<int>(type: "integer", nullable: false)
+                },
+                constraints: table =>
+                {
+                });
+
             migrationBuilder.CreateTable(
                 name: "BarModel",
                 columns: table => new
@@ -40,6 +62,18 @@ namespace BackendForClub.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ComputerModel", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "RegModel",
+                columns: table => new
+                {
+                    Login = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Password = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
                 });
 
             migrationBuilder.CreateTable(
@@ -104,7 +138,16 @@ namespace BackendForClub.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "AuthModel");
+
+            migrationBuilder.DropTable(
+                name: "BalanceModel");
+
+            migrationBuilder.DropTable(
                 name: "BarModel");
+
+            migrationBuilder.DropTable(
+                name: "RegModel");
 
             migrationBuilder.DropTable(
                 name: "SessionModel");

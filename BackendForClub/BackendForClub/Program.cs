@@ -3,6 +3,7 @@ using BackendForClub.Data;
 using BackendForClub.Controllers.Authorization;
 using BackendForClub.Controllers.Registration;
 using BackendForClub.Controllers.Balance;
+using BackendForClub.Controllers.UsersModel;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,5 +29,6 @@ if (app.Environment.IsDevelopment())
 app.Authorization();
 app.Registration();
 app.Balance();
+app.Users();
 
 app.Run();

@@ -7,8 +7,8 @@ namespace BackendForClub.Controllers.Balance
     {
         public static void Balance(this WebApplication app)
         {
-            app.MapPost("/api/auth/AddBalance", AddBalance);
-            app.MapPost("/api/auth/DelBalance", DelBalance);
+            app.MapPost("/api/balance/AddBalance", AddBalance);
+            app.MapPost("/api/balance/DelBalance", DelBalance);
         }
         private static async Task<IResult> AddBalance(BalanceModel balanceModel, ApplicationContext db)
         {

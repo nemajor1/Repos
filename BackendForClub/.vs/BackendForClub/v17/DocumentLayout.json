@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\controllers\\balance\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\controllers\\balance\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\datamodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\datamodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|c:\\projects\\portfolio\\repos\\backendforclub\\backendforclub\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2654E338-ACB7-4D37-9205-7138C0D4FB8E}|BackendForClub\\BackendForClub.csproj|solutionrelative:backendforclub\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Program.cs",
-              "RelativeDocumentMoniker": "BackendForClub\\Program.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Program.cs",
-              "RelativeToolTip": "BackendForClub\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:37:00.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
-              "RelativeDocumentMoniker": "BackendForClub\\DataModels\\UserModel.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\DataModels\\UserModel.cs",
-              "RelativeToolTip": "BackendForClub\\DataModels\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:32:56.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BalanceController.cs",
-              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Controllers\\Balance\\BalanceController.cs",
-              "RelativeDocumentMoniker": "BackendForClub\\Controllers\\Balance\\BalanceController.cs",
-              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Controllers\\Balance\\BalanceController.cs",
-              "RelativeToolTip": "BackendForClub\\Controllers\\Balance\\BalanceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "BackendForClub\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "C:\\projects\\Portfolio\\Repos\\BackendForClub\\BackendForClub\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "BackendForClub\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADgvw8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:24:22.129Z",
+              "WhenOpened": "2024-07-12T17:52:59.735Z",
               "EditorCaption": ""
             }
           ]

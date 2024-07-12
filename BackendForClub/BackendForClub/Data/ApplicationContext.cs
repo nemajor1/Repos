@@ -1,6 +1,8 @@
 ﻿using BackendForClub.DataModels;
 using Microsoft.EntityFrameworkCore;
-
+using BackendForClub.Controllers.Authorization;
+using BackendForClub.Controllers.Registration;
+using BackendForClub.Controllers.Balance;
 namespace BackendForClub.Data
 {
     
@@ -19,7 +21,9 @@ namespace BackendForClub.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            //modelBuilder.Entity<AuthModel>().HasNoKey();
+            modelBuilder.Entity<AuthModel>().HasNoKey();
+            modelBuilder.Entity<RegModel>().HasNoKey();
+            modelBuilder.Entity<BalanceModel>().HasNoKey();
         }
     }
 }

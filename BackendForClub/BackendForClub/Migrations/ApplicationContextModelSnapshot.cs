@@ -22,6 +22,49 @@ namespace BackendForClub.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("BackendForClub.Controllers.Authorization.AuthModel", b =>
+                {
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.ToTable("AuthModel");
+                });
+
+            modelBuilder.Entity("BackendForClub.Controllers.Balance.BalanceModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
+                    b.ToTable("BalanceModel");
+                });
+
+            modelBuilder.Entity("BackendForClub.Controllers.Registration.RegModel", b =>
+                {
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.ToTable("RegModel");
+                });
+
             modelBuilder.Entity("BackendForClub.DataModels.BarModel", b =>
                 {
                     b.Property<int>("Id")
