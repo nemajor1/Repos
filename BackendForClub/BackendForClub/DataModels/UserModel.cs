@@ -22,7 +22,7 @@ namespace BackendForClub.DataModels
         [Required]
         public string DateRegistration { get; set; } = null!;
         [Required]
-        public int Balance { get; set; }
+        public int Balance { get; set; } = 0;
     }
     public enum UserRole
     {

@@ -29,7 +29,7 @@ namespace BackendForClub.Controllers.Registration
             };
             await db.UserModel.AddAsync(user);
             await db.SaveChangesAsync();
-            return Results.Json(new { message = "Регистрация успешна" });
+            return Results.Json(user);
         }
     }
 }

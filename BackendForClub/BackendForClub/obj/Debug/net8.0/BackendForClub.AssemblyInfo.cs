@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendForClub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56755dcf665f699cf966627da1668f3eaca4e358")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7163f6584759871be33cad31a240f242879d6caa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendForClub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendForClub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
