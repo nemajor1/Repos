@@ -30,7 +30,7 @@ namespace BackendForClub.Controllers.Balance
             }
             user.Balance -= balanceModel.Quantity;
             await db.SaveChangesAsync();
-            return Results.Json($"Пополнено на {balanceModel.Quantity}");
+            return Results.Json($"Списание на {balanceModel.Quantity}");
         }
     }
 }

@@ -4,6 +4,7 @@ using BackendForClub.Controllers.Authorization;
 using BackendForClub.Controllers.Registration;
 using BackendForClub.Controllers.Balance;
 using BackendForClub.Controllers.UsersModel;
+using BackendForClub.Controllers.Bar;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,15 +17,6 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI(c =>
-//    {
-//        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API");
-//        c.RoutePrefix = "swagger";
-//    });
-//}
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -36,5 +28,6 @@ app.Authorization();
 app.Registration();
 app.Balance();
 app.Users();
+app.Bar();
 
 app.Run();
