@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackendForClub.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240712181616_AddNewColumnToTable")]
-    partial class AddNewColumnToTable
+    [Migration("20240713162010_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

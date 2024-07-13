@@ -21,7 +21,7 @@ namespace BackendForClub.Controllers.Authorization
             {
                 return Results.NotFound(new { message = "Пользователь не найден или неверный пароль" });
             }
-            return Results.Json(new { message = "Аутентификация успешна" });
+            return Results.Json(user);
         }
     }
 }
