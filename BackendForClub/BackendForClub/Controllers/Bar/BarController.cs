@@ -14,6 +14,9 @@ namespace BackendForClub.Controllers.Bar
             app.MapDelete("/api/bar/DeletePosition", DeletePosition);
             app.MapPut("/api/bar/AddQuantity", AddQuantity);
             app.MapPut("/api/bar/DelQuantity", DelQuantity);
+            app.MapPut("/api/bar/SetPrice", SetPrice);
+            app.MapPut("/api/bar/SetQuantity", SetQuantity);
+
         }
         private static async Task<IResult> GetAllPosition(ApplicationContext db)
         {
@@ -76,6 +79,28 @@ namespace BackendForClub.Controllers.Bar
             bar.Quantity -= qm.Quantity;
             await db.SaveChangesAsync();
             return Results.Json($"Списание на {qm.Quantity}");
+        }
+        private static async Task<IResult> SetPrice(PriceModel pm, ApplicationContext db)
+        {
+            var bar = await db.BarModel.FirstOrDefaultAsync(u => u.Id == pm.Id);
+            if (bar == null || pm.Price < 0)
+            {
+                return Results.Json("Not found");
+            }
+            bar.Price = pm.Price;
+            await db.SaveChangesAsync();
+            return Results.Json(bar);
+        }
+        private static async Task<IResult> SetQuantity(QuantityModel qm, ApplicationContext db)
+        {
+            var bar = await db.BarModel.FirstOrDefaultAsync(u => u.Id == qm.Id);
+            if (bar == null || qm.Quantity < 0)
+            {
+                return Results.Json("Not found");
+            }
+            bar.Quantity = qm.Quantity;
+            await db.SaveChangesAsync();
+            return Results.Json(bar);
         }
     }
 }
